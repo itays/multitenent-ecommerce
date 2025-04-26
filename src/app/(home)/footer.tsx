@@ -4,4 +4,4 @@ export const Footer = () => {
       Footer
     </footer>
   );
-};
+}
