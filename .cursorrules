@@ -4,4 +4,6 @@
 
 ## Key Insights
 
-*(Add discovered patterns, user preferences, known challenges, etc. as we work.)* 
+*(Add discovered patterns, user preferences, known challenges, etc. as we work.)*
+
+- Use named exports for React components instead of default exports. 

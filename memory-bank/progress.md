@@ -1,13 +1,19 @@
 # Progress
 
-_(This file tracks what works, what's left to build, the current status, and known issues, based on activeContext.md)_
+_(This file tracks what works, what's left to build, the current status, and
+known issues, based on activeContext.md)_
 
 ## What Works
 
 - Basic Storybook setup is installed and configured for Tailwind.
-- The core `Button` component (`src/components/ui/button.tsx`) exists with Storybook stories.
-- The core `Input` component (`src/components/ui/input.tsx`) exists with Storybook stories.
-- Storybook stories for the `Button` component variants (`default`, `neutral`, `reverse`, `noShadow`), sizes, and disabled state are available (`src/stories/Button.stories.tsx`).
+- The core `Button` component (`src/components/ui/button.tsx`) exists with
+  Storybook stories.
+- The core `Input` component (`src/components/ui/input.tsx`) exists with
+  Storybook stories.
+- Storybook stories for the `Button` component variants (`default`, `neutral`,
+  `reverse`, `noShadow`), sizes, and disabled state are available
+  (`src/stories/Button.stories.tsx`).
+- The `NavbarSidebar` component (`src/app/(home)/navbar-sidebar.tsx`) has been created.
 
 ## What's Left to Build
 
