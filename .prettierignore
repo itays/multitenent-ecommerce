@@ -1,0 +1,16 @@
+# Build output
+.next
+dist
+build
+out
+
+# Dependencies
+node_modules
+
+# Memory Bank folder - ignore all files in this directory
+memory-bank/
+
+# Other common ignores
+.git
+.cache
+coverage 

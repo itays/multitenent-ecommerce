@@ -23,7 +23,7 @@ jobs:
         run: bun run lint
 
       - name: Format check
-        run: bunx prettier --check .
+        run: bun run format:check
 
   build:
     runs-on: ubuntu-latest
