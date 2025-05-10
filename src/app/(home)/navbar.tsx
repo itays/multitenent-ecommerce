@@ -43,7 +43,7 @@ const Navbar = () => {
   const pathname = usePathname();
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   return (
-    <nav className="bg-background flex h-20 gap-4 border-b font-medium">
+    <nav className="bg-background flex h-20 gap-4 border-b px-4 font-medium">
       <Link href="/" className="flex items-center pl-6">
         <span className={cn("text-5xl font-semibold", poppins.className)}>
           funroad
@@ -82,7 +82,7 @@ const Navbar = () => {
         <ThemeSwitch />
       </div>
 
-      <div className="mr-4 flex items-center justify-center lg:hidden">
+      <div className="flex items-center justify-center lg:hidden">
         <Button
           variant={"neutral"}
           onClick={() => setIsSidebarOpen(true)}
