@@ -1,6 +1,8 @@
 # Product Context
 
-_(This file describes why this project exists, the problems it solves, how it should work, and user experience goals. It should be based on the projectbrief.md)_
+_(This file describes why this project exists, the problems it solves, how it
+should work, and user experience goals. It should be based on the
+projectbrief.md)_
 
 ## Problem Statement
 
